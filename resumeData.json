@@ -1,77 +1,83 @@
 {
   "main": {
-    "name": "Tim Baker",
-    "occupation": "(Your Occupation Here)",
-    "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
-    "image": "profilepic.jpg",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "name": "Michael Ma",
+    "description": "UIUC CS+Stats grad interested in machine learning and data",
+    "image": "profilepic.jpeg",
+    "bio": "Data analyst / machine learning background. Interested in leveraging huge data for inhuman inferences. Large experience in front-end and high level automation. I also love to work with hardware, so if you have any new 3080 Ti's feel free to call",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "mamichael326@gmail.com",
+    "phone": "(224) 385-2592",
     "address": {
       "street": "(Your Street)",
       "city": "(Your City)",
       "state": "(Your State)",
       "zip": "(Your Zip/Postal Code)"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
+    "website": "http://www.gigamichael.ma",
+    "resumedownload": "http://www.gigamichael.ma/resume.pdf",
     "social": [
       {
-        "name": "facebook",
-        "url": "http://facebook.com/tim.baker.906",
-        "className": "fa fa-facebook"
-      },
-      {
-        "name": "twitter",
-        "url": "http://twitter.com",
-        "className": "fa fa-twitter"
-      },
-      {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url": "https://www.linkedin.com/in/michael-ma-the-coolest/",
         "className": "fa fa-linkedin"
       },
       {
-        "name": "instagram",
-        "url": "http://instagram.com/tbaker_x",
-        "className": "fa fa-instagram"
+        "name": "github",
+        "url": "https://github.com/GigaMichaelMa",
+        "className": "fa fa-github"
       },
       {
-        "name": "github",
-        "url": "http://github.com/tbakerx",
-        "className": "fa fa-github"
+        "name": "resume",
+        "url": "http://www.gigamichael.ma/resume.pdf",
+        "className": "fa fa-file"
       }
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "Lot of experience in basically everything",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "University of Illinois at Urbana Champaign",
+        "degree": "Bachelors in Computer Science and Statistics",
+        "graduated": "May 2022",
+        "description": "CS: Programming Languages & Compilers, Systems Programming, Computer Architecture, Data Structures STATS: Statistical Computing, Methods of Applied Statistics, High Frequency Trading, Economic Forecasting DEEP LEARNING: Applied Machine Learning, Artificial Intelligence, Unsupervised Learning, Applied ML Econometrics"
       }
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Amazon",
+        "title": "Software Development Intern",
+        "years": "May – August 2020",
+        "url": "https://www.amazon.com/",
+        "description": "Worked on an internal rules engine for auditing deals on the promotions page. Main work revolved around improving efficiency for non technical employees to customize the engine. Additional work in automated testing of new components to the engine as well as old components."
       },
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "BassInSight",
+        "title": "Software Developer",
+        "years": "August 2019 – Feb 2020",
+        "url": "https://bassinsight.co/",
+        "description": "Designed and implemented a flutter app to help bass fishermen. Using water and lighting conditions, the app simulated what a bass fish might see. Fishing lures can also be considered after conditions are known to find the most visible lure."
+      },
+      {
+        "company": "GOTEK7",
+        "title": "Full Stack Intern",
+        "years": "June – August 2019",
+        "url": "https://www.gotek7.com/",
+        "description": "End-to-end development of police GPS trackers. From soldering the hardware to designing the internal device tracking software and finally the client side graphical interface. Main work revolved around adding additional features supported in new-gen hardware and reflecting it on the client graphical interface."
+      },
+      {
+        "company": "Fruits Technologies",
+        "title": "Software Developer Intern ",
+        "years": "July – August 2018",
+        "url": "https://apps.apple.com/cn/app/%E9%AC%BC%E8%AF%AD%E8%BF%B7%E5%9F%8E-%E6%9C%80%E7%BB%88%E7%AC%94%E8%AE%B0/id1322451426",
+        "description": "Developing and maintaining physics/rendering engine for ios game. Optimizations mainly targeted low end devices and bringing a smooth experience for old hardware. Additional client code allows for simplified physics and dynamic graphical fidelity."
+      },
+      {
+        "company": "TradeLink LLC",
+        "title": "Data Analyst Intern",
+        "years": "May – August 2017",
+        "url": "https://tradelinkllc.com/",
+        "description": "Long term data cleaning and storage. Validating data using statistical models then proper storage via internal pipelines. Additional work in adding functionality in existing trader software that allowed for priority sorting of options/futures based on date."
       }
     ],
     "skills": [
@@ -108,46 +114,18 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
-      },
-      {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "title": "GPT-4",
+        "category": "Next generation human speech and text synthesis",
+        "image": "websitelmao.jpg",
+        "url": "https://www.youtube.com/watch?v=p7YXXieghto"
       }
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
-      },
-      {
-        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
+        "text": "That Michael Ma must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... (definitely)"
       }
     ]
   }
