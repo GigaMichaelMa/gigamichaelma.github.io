@@ -40,7 +40,7 @@
         "school": "University of Illinois at Urbana Champaign",
         "degree": "Bachelors in Computer Science and Statistics",
         "graduated": "May 2022",
-        "description": "Put coursewortk here lmao."
+        "description": "CS: Programming Languages & Compilers, Systems Programming, Computer Architecture, Data Structures STATS: Statistical Computing, Methods of Applied Statistics, High Frequency Trading, Economic Forecasting DEEP LEARNING: Applied Machine Learning, Artificial Intelligence, Unsupervised Learning, Applied ML Econometrics"
       }
     ],
     "work": [
@@ -49,35 +49,35 @@
         "title": "Software Development Intern",
         "years": "May – August 2020",
         "url": "https://www.amazon.com/",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": "Worked on an internal rules engine for auditing deals on the promotions page. Main work revolved around improving efficiency for non technical employees to customize the engine. Additional work in automated testing of new components to the engine as well as old components."
       },
       {
         "company": "BassInSight",
         "title": "Software Developer",
         "years": "August 2019 – Feb 2020",
         "url": "https://bassinsight.co/",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": "Designed and implemented a flutter app to help bass fishermen. Using water and lighting conditions, the app simulated what a bass fish might see. Fishing lures can also be considered after conditions are known to find the most visible lure."
       },
       {
         "company": "GOTEK7",
         "title": "Full Stack Intern",
         "years": "June – August 2019",
         "url": "https://www.gotek7.com/",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": "End-to-end development of police GPS trackers. From soldering the hardware to designing the internal device tracking software and finally the client side graphical interface. Main work revolved around adding additional features supported in new-gen hardware and reflecting it on the client graphical interface."
       },
       {
         "company": "Fruits Technologies",
-        "title": "Junior bug fixer",
+        "title": "Software Developer Intern ",
         "years": "July – August 2018",
         "url": "https://apps.apple.com/cn/app/%E9%AC%BC%E8%AF%AD%E8%BF%B7%E5%9F%8E-%E6%9C%80%E7%BB%88%E7%AC%94%E8%AE%B0/id1322451426",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": "Developing and maintaining physics/rendering engine for ios game. Optimizations mainly targeted low end devices and bringing a smooth experience for old hardware. Additional client code allows for simplified physics and dynamic graphical fidelity."
       },
       {
         "company": "TradeLink LLC",
-        "title": "Junior bug fixer",
+        "title": "Data Analyst Intern",
         "years": "May – August 2017",
         "url": "https://tradelinkllc.com/",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": "Long term data cleaning and storage. Validating data using statistical models then proper storage via internal pipelines. Additional work in adding functionality in existing trader software that allowed for priority sorting of options/futures based on date."
       }
     ],
     "skills": [
