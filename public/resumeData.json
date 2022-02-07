@@ -14,7 +14,7 @@
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://www.gigamichael.ma",
-    "resumedownload": "http://timbakerdev.com",
+    "resumedownload": "http://www.gigamichael.ma/resume.pdf",
     "social": [
       {
         "name": "linkedin",
@@ -28,7 +28,7 @@
       },
       {
         "name": "resume",
-        "url": "http://github.com/tbakerx",
+        "url": "http://www.gigamichael.ma/resume.pdf",
         "className": "fa fa-file"
       }
     ]
@@ -37,10 +37,10 @@
     "skillmessage": "Lot of experience in basically everything",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "University of Illinois at Urbana Champaign",
+        "degree": "Bachelors in Computer Science and Statistics",
+        "graduated": "May 2022",
+        "description": "Put coursewortk here lmao."
       }
     ],
     "work": [
