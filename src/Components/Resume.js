@@ -1,4 +1,16 @@
 import React, { Component } from 'react';
+const onMouseOver = event => {
+  const el = event.target;
+  let colorhex = [
+    "#0693E3",
+  ];
+  el.style.color = colorhex[0];
+};
+const onMouseOut = event => {
+  const el = event.target;
+  let black = "#000000";
+  el.style.color = black;
+};
 
 class Resume extends Component {
   render() {
@@ -11,7 +23,7 @@ class Resume extends Component {
         <p>{education.description}</p></div>
       })
       var work = this.props.data.work.map(function(work){
-        return <div key={work.company}><h3>{work.company}</h3>
+        return <div key={work.company} ><a href={work.url} target="_blank" onMouseOut={event => onMouseOut(event)} onMouseEnter={event => onMouseOver(event)}><h3>{work.company}</h3></a>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
             <p>{work.description}</p>
         </div>
@@ -21,7 +33,10 @@ class Resume extends Component {
         return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
       })
     }
-
+    
+  function changeBackground(e) {
+    e.target.style.background = 'red';
+  }
     return (
       <section id="resume">
 
@@ -50,27 +65,6 @@ class Resume extends Component {
           {work}
         </div>
     </div>
-
-
-
-      <div className="row skill">
-
-         <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
-
-         <div className="nine columns main-col">
-
-            <p>{skillmessage}
-            </p>
-
-				<div className="bars">
-				   <ul className="skills">
-					  {skills}
-					</ul>
-				</div>
-			</div>
-      </div>
    </section>
     );
   }

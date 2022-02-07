@@ -3,7 +3,7 @@
     "name": "Michael Ma",
     "description": "UIUC CS+Stats grad interested in machine learning and data",
     "image": "profilepic.jpg",
-    "bio": "Data analyst / machine learning background. Interested in leveraging huge data for inhuman inferences. Have a ton of experience in front-end (evidently) and high level automation. I also love to work with hardware, so if you have any new 3080 Ti's feel free to call",
+    "bio": "Data analyst / machine learning background. Interested in leveraging huge data for inhuman inferences. Large experience in front-end and high level automation. I also love to work with hardware, so if you have any new 3080 Ti's feel free to call",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "mamichael326@gmail.com",
     "phone": "(224) 385-2592",
@@ -45,15 +45,38 @@
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
+        "company": "Amazon",
+        "title": "Software Development Intern",
+        "years": "May – August 2020",
+        "url": "https://www.amazon.com/",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
-        "company": "Super Cool Studio",
+        "company": "BassInSight",
+        "title": "Software Developer",
+        "years": "August 2019 – Feb 2020",
+        "url": "https://bassinsight.co/",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company": "GOTEK7",
+        "title": "Full Stack Intern",
+        "years": "June – August 2019",
+        "url": "https://www.gotek7.com/",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company": "Fruits Technologies",
         "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
+        "years": "July – August 2018",
+        "url": "https://apps.apple.com/cn/app/%E9%AC%BC%E8%AF%AD%E8%BF%B7%E5%9F%8E-%E6%9C%80%E7%BB%88%E7%AC%94%E8%AE%B0/id1322451426",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company": "TradeLink LLC",
+        "title": "Junior bug fixer",
+        "years": "May – August 2017",
+        "url": "https://tradelinkllc.com/",
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       }
     ],
@@ -91,10 +114,10 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "GPT-4",
+        "category": "Next generation human speech and text synthesis",
+        "image": "websitelmao.jpg",
+        "url": "https://www.youtube.com/watch?v=p7YXXieghto"
       }
     ]
   },
