@@ -20,10 +20,10 @@ class Resume extends Component {
       var education = this.props.data.education.map(function(education){
         return <div key={education.school}><h3>{education.school}</h3>
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-        <p>{education.description}</p></div>
+        <p>{education.CS}</p><p>{education.STATS}</p><p>{education.DL}</p></div>
       })
       var work = this.props.data.work.map(function(work){
-        return <div key={work.company} ><a href={work.url} target="_blank" onMouseOut={event => onMouseOut(event)} onMouseEnter={event => onMouseOver(event)}><h3>{work.company}</h3></a>
+        return <div key={work.company} ><h3>{work.company}</h3><a href={work.secretURL} target="_blank" onMouseOut={event => onMouseOut(event)} onMouseEnter={event => onMouseOver(event)}><i>{work.url}</i></a>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
             <p>{work.description}</p>
         </div>
