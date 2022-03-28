@@ -1,19 +1,15 @@
 import React, { Component } from 'react';
+import Pdf from '../Documents/resH.pdf';
+
 
 class About extends Component {
   render() {
 
     if(this.props.data){
-      var name = this.props.data.name;
       var profilepic= "images/"+this.props.data.image;
       var bio = this.props.data.bio;
-      var street = this.props.data.address.street;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
       var phone= this.props.data.phone;
       var email = this.props.data.email;
-      var resumeDownload = this.props.data.resumedownload;
     }
 
     return (
@@ -36,7 +32,7 @@ class About extends Component {
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button" target={"_blank"} download={"MichaelMa"}><i className="fa fa-download"></i>Download Resume</a>
+                     <a className="button" href = {Pdf} target = "_blank" ><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>
